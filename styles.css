@@ -1,0 +1,75 @@
+/*Genral Styles first */
+/* We use * to add styles to everything */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 100vh;
+    text-align: center;
+    background: url(images/img-1.webp) no-repeat center center/ cover;
+}
+
+.container{
+    width: 550px; 
+    height: 450px;
+}
+
+.header{
+    font-size: 1.2rem;
+    border: solid 2px #fff;
+    color: #fff;
+    background-color: rgb(30, 130, 120);
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px; /*to make the corners of the box round*/
+
+}
+
+.main-content{
+    width: 100%;
+height: 300px;
+background-color: white;
+border-radius: 15px;
+padding: 50px 40px;
+box-shadow: 0 0 30px;
+
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+    font-size: 1.6rem;
+    color: rgb(42, 179, 179);
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.button-area button {
+    background-color: rgb(30, 130, 120);
+    color: white;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+.button-area button:active{
+    background-color: #5dbcbc;
+}
+
+.made-by{
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+padding: 50px 20px;
+margin: 10% ;
+}
